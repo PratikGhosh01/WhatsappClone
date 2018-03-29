@@ -1,0 +1,60 @@
+
+body {
+
+background-image: url("background.jpg");
+   background-color: #cccccc;
+    margin: 0 auto;
+    
+    height: auto;
+    max-width: 100%;
+   
+
+}
+
+.container1 {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 1vw;
+    margin: 1vw 0;
+    max-width: 90%;
+}
+
+.darker {
+    border-color: #ccc;
+    background-color: #ddd;
+    text-align: right;
+}
+
+.container1::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container1 img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.container1 img.right {
+    float: right;
+    margin-left: 1vw;
+    margin-right:0;
+}
+
+.time-right {
+    float: left;
+    color: #aaa;
+}
+
+.time-left {
+    float:right;
+    color: #999;
+}
+.input-group{
+    margin-bottom: 2vw;
+}
